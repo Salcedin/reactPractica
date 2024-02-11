@@ -1,0 +1,134 @@
+body {
+  background: linear-gradient(to left, #80FFDB, #5390D9);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+header {
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #3bcafa;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-left: auto;
+}
+
+.infoUsuario {
+  background-color: #c2e5f8;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.infoUsuario {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.datos {
+  background-color: #87d5ff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.datosUsuario {
+  flex-basis: 30%;
+  text-align: center;
+  padding: 10px;
+  background-color: #c2e5f8;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 5px;
+}
+
+footer {
+  background-color: #c2e5f8;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.redes ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+
+.redes li {
+  margin-right: 20px;
+}
+
+.redes a:hover {
+  color: #007bff;
+}
+
+.video {
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.video p {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.video video {
+  width: 20%;
+  height: 20%;
+  border: 2px solid #333;
+  border-radius: 5px;
+}
+
+.kratos p {
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.kratos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.kratos img {
+  width: 300px;
+  height: 300px;
+  border: 2px solid #333;
+  margin: 10px;
+  transition: transform 0.3s;
+}
+
+.kratos img:hover {
+  transform: scale(1.2) rotate(360deg);
+}
